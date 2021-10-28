@@ -1,4 +1,4 @@
-CMakeFiles/aula02.dir/src/main.cpp.o: \
+CMakeFiles/calculadora.dir/src/main.cpp.o: \
  /home/sangrito/Dev/C++/Console/Aula02/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11.1.0/cstdlib \
  /usr/include/c++/11.1.0/x86_64-pc-linux-gnu/bits/c++config.h \

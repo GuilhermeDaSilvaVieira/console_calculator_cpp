@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named aula02
+# Target rules for targets named calculadora
 
 # Build rule for target.
-aula02: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 aula02
-.PHONY : aula02
+calculadora: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 calculadora
+.PHONY : calculadora
 
 # fast build rule for target.
-aula02/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aula02.dir/build.make CMakeFiles/aula02.dir/build
-.PHONY : aula02/fast
+calculadora/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculadora.dir/build.make CMakeFiles/calculadora.dir/build
+.PHONY : calculadora/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aula02.dir/build.make CMakeFiles/aula02.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculadora.dir/build.make CMakeFiles/calculadora.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -142,7 +142,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aula02.dir/build.make CMakeFiles/aula02.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculadora.dir/build.make CMakeFiles/calculadora.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,7 +150,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/aula02.dir/build.make CMakeFiles/aula02.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculadora.dir/build.make CMakeFiles/calculadora.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... aula02"
+	@echo "... calculadora"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
