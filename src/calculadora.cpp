@@ -1,10 +1,12 @@
 #include "calculadora.hpp"
 
+#include <iomanip>
 #include <iostream>
 #include <limits>
 
 void Calculadora::run()
 {
+  std::cout << std::setprecision( 32 );
   greeter();
   x         = getUserInput();
   operation = getMathematicalOperation();
