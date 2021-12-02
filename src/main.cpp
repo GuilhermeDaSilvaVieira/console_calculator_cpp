@@ -1,5 +1,8 @@
 #include <cstdlib>
+#include <exception>
 #include <iostream>
+
+#include "calculadora.hpp"
 
 // OBJETIVO
 // Realizar calculo com entrada do usuário e as 4 operações
@@ -27,88 +30,17 @@
 //  IMPLEMENTE CADA FUNÇÃO
 //  TESTE CADA FUNÇÃO
 
-void greeter();
-long double getUserInput();
-char getMathematicalOperation();
-long double calculateResult( long double x, char operation, long double y );
-void printResult( long double result );
-void thanks();
-
 int main()
 {
-  greeter();
-  long double x { getUserInput() };
-  char operation { getMathematicalOperation() };
-  long double y { getUserInput() };
-  long double result { calculateResult( x, operation, y ) };
-  printResult( result );
-  thanks();
-  return EXIT_SUCCESS;
-}
+  Calculadora app {};
 
-void greeter()
-{
-  std::cout << "----------------------------------------------\n";
-  std::cout << "|                  CALCULADORA               |\n";
-  std::cout << "----------------------------------------------\n";
-  std::cout << "| Operadores disponíveis -> + - * /          |\n";
-  std::cout << "| Digite apenas um operador disponível       |\n";
-  std::cout << "| Lembre-se números decimais com ponto       |\n";
-  std::cout << "----------------------------------------------\n\n";
-}
-
-long double getUserInput()
-{
-  std::cout << "Digite um número : ";
-  long double input;
-  std::cin >> input;
-  return input;
-}
-
-char getMathematicalOperation()
-{
-  std::cout << "Digite um operador válido : ";
-  char input;
-  std::cin >> input;
-  return input;
-}
-
-long double calculateResult( long double x, char operation, long double y )
-{
-  long double result {};
-
-  switch ( operation )
+  try
   {
-  case '+' :
-    result = x + y;
-    break;
-  case '-' :
-    result = x - y;
-    break;
-  case '*' :
-    result = x * y;
-    break;
-  case '/' :
-    result = x / y;
-    break;
-  default :
-    std::cout << "Operador inválido!\n";
-    break;
+    app.run();
   }
-
-  return result;
-}
-
-void printResult( long double result )
-{
-  std::cout << "\n----------------------------------------------\n";
-  std::cout << " RESULTADO : " << result << '\n';
-  std::cout << "----------------------------------------------\n";
-}
-
-void thanks()
-{
-  std::cout << "\n==============================================\n";
-  std::cout << "||  OBRIGADO POR USAR A NOSSA CALCULADORA   ||\n";
-  std::cout << "==============================================\n\n";
+  catch ( std::exception &e )
+  {
+    std::cerr << "EXCEPTION FOUND IN " << e.what() << '\n';
+  }
+  return EXIT_SUCCESS;
 }

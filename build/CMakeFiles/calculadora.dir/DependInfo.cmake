@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/sangrito/Dev/C++/Console/Aula02/src/calculadora.cpp" "CMakeFiles/calculadora.dir/src/calculadora.cpp.o" "gcc" "CMakeFiles/calculadora.dir/src/calculadora.cpp.o.d"
   "/home/sangrito/Dev/C++/Console/Aula02/src/main.cpp" "CMakeFiles/calculadora.dir/src/main.cpp.o" "gcc" "CMakeFiles/calculadora.dir/src/main.cpp.o.d"
   )
 
