@@ -6,6 +6,7 @@ Make sure you have installed `g++` or `clang++` and `cmake` in your machine and 
 ```
 git clone https://github.com/GuilhermeDaSilvaVieira/console_calculator_cpp.git
 cd console_calculator_cpp
+mkdir build
 ./configure.sh && ./build.sh
 ./run_release.sh
 ```
