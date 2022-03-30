@@ -1,3 +1,0 @@
-/home/guilherme/Dev/C++/Console/Calculadora/build/CMakeFiles/calculadora.dir
-/home/guilherme/Dev/C++/Console/Calculadora/build/CMakeFiles/edit_cache.dir
-/home/guilherme/Dev/C++/Console/Calculadora/build/CMakeFiles/rebuild_cache.dir

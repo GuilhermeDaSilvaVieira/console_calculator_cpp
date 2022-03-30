@@ -1,1 +1,0 @@
-/usr/bin/clang++ CMakeFiles/calculadora.dir/src/calculadora.cpp.o CMakeFiles/calculadora.dir/src/main.cpp.o -o calculadora 
