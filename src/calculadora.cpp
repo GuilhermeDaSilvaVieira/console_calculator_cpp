@@ -17,13 +17,13 @@ void Calculadora::run()
 
 void Calculadora::greeter()
 {
-  std::cout << "----------------------------------------------\n";
-  std::cout << "|                  CALCULADORA               |\n";
-  std::cout << "----------------------------------------------\n";
-  std::cout << "| Operadores disponíveis -> + - * /          |\n";
-  std::cout << "| Digite apenas um operador disponível       |\n";
-  std::cout << "| Lembre-se números decimais com ponto       |\n";
-  std::cout << "----------------------------------------------\n\n";
+  std::cout << "----------------------------------------------\n"
+            << "|                  CALCULADORA               |\n"
+            << "----------------------------------------------\n"
+            << "| Operadores disponíveis -> + - * /          |\n"
+            << "| Digite apenas um operador disponível       |\n"
+            << "| Lembre-se números decimais com ponto       |\n"
+            << "----------------------------------------------\n\n";
 }
 
 long double Calculadora::getUserInput()
@@ -65,8 +65,10 @@ char Calculadora::getMathematicalOperation()
     std::cin.clear();                                                       // clear bad input flag
     std::cin.ignore( std::numeric_limits< std::streamsize >::max(), '\n' ); // discard input
     std::cout << "Entrada inválida. Por favor digite de novo.\n";
-    greeter();
+    // greeter();
   }
+  std::cin.clear();                                                       // clear bad input flag
+  std::cin.ignore( std::numeric_limits< std::streamsize >::max(), '\n' ); // discard input
   return input;
 }
 
@@ -98,14 +100,12 @@ long double Calculadora::calculateResult( long double x, char operation, long do
 
 void Calculadora::printResult( long double result )
 {
-  std::cout << "\n----------------------------------------------\n";
-  std::cout << " RESULTADO : " << result << '\n';
-  std::cout << "----------------------------------------------\n";
+  std::cout << "\n----------------------------------------------\n" << x << " " << operation << " " << y << " = " << result << '\n' << "----------------------------------------------\n";
 }
 
 void Calculadora::thanks()
 {
-  std::cout << "\n==============================================\n";
-  std::cout << "||  OBRIGADO POR USAR A NOSSA CALCULADORA   ||\n";
-  std::cout << "==============================================\n\n";
+  std::cout << "\n==============================================\n"
+            << "||  OBRIGADO POR USAR A NOSSA CALCULADORA   ||\n"
+            << "==============================================\n\n";
 }

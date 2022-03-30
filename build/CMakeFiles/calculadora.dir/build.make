@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sangrito/Dev/C++/Console/Aula02
+CMAKE_SOURCE_DIR = /home/guilherme/Dev/C++/Console/Calculadora
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sangrito/Dev/C++/Console/Aula02/build
+CMAKE_BINARY_DIR = /home/guilherme/Dev/C++/Console/Calculadora/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/calculadora.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/calculadora.dir/flags.make
 CMakeFiles/calculadora.dir/src/calculadora.cpp.o: CMakeFiles/calculadora.dir/flags.make
 CMakeFiles/calculadora.dir/src/calculadora.cpp.o: ../src/calculadora.cpp
 CMakeFiles/calculadora.dir/src/calculadora.cpp.o: CMakeFiles/calculadora.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sangrito/Dev/C++/Console/Aula02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calculadora.dir/src/calculadora.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculadora.dir/src/calculadora.cpp.o -MF CMakeFiles/calculadora.dir/src/calculadora.cpp.o.d -o CMakeFiles/calculadora.dir/src/calculadora.cpp.o -c /home/sangrito/Dev/C++/Console/Aula02/src/calculadora.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guilherme/Dev/C++/Console/Calculadora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calculadora.dir/src/calculadora.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculadora.dir/src/calculadora.cpp.o -MF CMakeFiles/calculadora.dir/src/calculadora.cpp.o.d -o CMakeFiles/calculadora.dir/src/calculadora.cpp.o -c /home/guilherme/Dev/C++/Console/Calculadora/src/calculadora.cpp
 
 CMakeFiles/calculadora.dir/src/calculadora.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculadora.dir/src/calculadora.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sangrito/Dev/C++/Console/Aula02/src/calculadora.cpp > CMakeFiles/calculadora.dir/src/calculadora.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guilherme/Dev/C++/Console/Calculadora/src/calculadora.cpp > CMakeFiles/calculadora.dir/src/calculadora.cpp.i
 
 CMakeFiles/calculadora.dir/src/calculadora.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculadora.dir/src/calculadora.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sangrito/Dev/C++/Console/Aula02/src/calculadora.cpp -o CMakeFiles/calculadora.dir/src/calculadora.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guilherme/Dev/C++/Console/Calculadora/src/calculadora.cpp -o CMakeFiles/calculadora.dir/src/calculadora.cpp.s
 
 CMakeFiles/calculadora.dir/src/main.cpp.o: CMakeFiles/calculadora.dir/flags.make
 CMakeFiles/calculadora.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/calculadora.dir/src/main.cpp.o: CMakeFiles/calculadora.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sangrito/Dev/C++/Console/Aula02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculadora.dir/src/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculadora.dir/src/main.cpp.o -MF CMakeFiles/calculadora.dir/src/main.cpp.o.d -o CMakeFiles/calculadora.dir/src/main.cpp.o -c /home/sangrito/Dev/C++/Console/Aula02/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guilherme/Dev/C++/Console/Calculadora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculadora.dir/src/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculadora.dir/src/main.cpp.o -MF CMakeFiles/calculadora.dir/src/main.cpp.o.d -o CMakeFiles/calculadora.dir/src/main.cpp.o -c /home/guilherme/Dev/C++/Console/Calculadora/src/main.cpp
 
 CMakeFiles/calculadora.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculadora.dir/src/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sangrito/Dev/C++/Console/Aula02/src/main.cpp > CMakeFiles/calculadora.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guilherme/Dev/C++/Console/Calculadora/src/main.cpp > CMakeFiles/calculadora.dir/src/main.cpp.i
 
 CMakeFiles/calculadora.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculadora.dir/src/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sangrito/Dev/C++/Console/Aula02/src/main.cpp -o CMakeFiles/calculadora.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guilherme/Dev/C++/Console/Calculadora/src/main.cpp -o CMakeFiles/calculadora.dir/src/main.cpp.s
 
 # Object files for target calculadora
 calculadora_OBJECTS = \
@@ -109,7 +109,7 @@ calculadora: CMakeFiles/calculadora.dir/src/calculadora.cpp.o
 calculadora: CMakeFiles/calculadora.dir/src/main.cpp.o
 calculadora: CMakeFiles/calculadora.dir/build.make
 calculadora: CMakeFiles/calculadora.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sangrito/Dev/C++/Console/Aula02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable calculadora"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guilherme/Dev/C++/Console/Calculadora/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable calculadora"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calculadora.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/calculadora.dir/clean:
 .PHONY : CMakeFiles/calculadora.dir/clean
 
 CMakeFiles/calculadora.dir/depend:
-	cd /home/sangrito/Dev/C++/Console/Aula02/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sangrito/Dev/C++/Console/Aula02 /home/sangrito/Dev/C++/Console/Aula02 /home/sangrito/Dev/C++/Console/Aula02/build /home/sangrito/Dev/C++/Console/Aula02/build /home/sangrito/Dev/C++/Console/Aula02/build/CMakeFiles/calculadora.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/guilherme/Dev/C++/Console/Calculadora/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/guilherme/Dev/C++/Console/Calculadora /home/guilherme/Dev/C++/Console/Calculadora /home/guilherme/Dev/C++/Console/Calculadora/build /home/guilherme/Dev/C++/Console/Calculadora/build /home/guilherme/Dev/C++/Console/Calculadora/build/CMakeFiles/calculadora.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/calculadora.dir/depend
 

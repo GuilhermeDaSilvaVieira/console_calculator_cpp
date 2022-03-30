@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/sangrito/Dev/C++/Console/Aula02/./include
+CXX_INCLUDES = -I/home/guilherme/Dev/C++/Console/Calculadora/./include
 
 CXX_FLAGS = -std=c++20
 

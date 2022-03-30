@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sangrito/Dev/C++/Console/Aula02
+CMAKE_SOURCE_DIR = /home/guilherme/Dev/C++/Console/Calculadora
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sangrito/Dev/C++/Console/Aula02/build
+CMAKE_BINARY_DIR = /home/guilherme/Dev/C++/Console/Calculadora/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/calculadora.dir/clean
 CMakeFiles/calculadora.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculadora.dir/build.make CMakeFiles/calculadora.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calculadora.dir/build.make CMakeFiles/calculadora.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sangrito/Dev/C++/Console/Aula02/build/CMakeFiles --progress-num=1,2,3 "Built target calculadora"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guilherme/Dev/C++/Console/Calculadora/build/CMakeFiles --progress-num=1,2,3 "Built target calculadora"
 .PHONY : CMakeFiles/calculadora.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/calculadora.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sangrito/Dev/C++/Console/Aula02/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guilherme/Dev/C++/Console/Calculadora/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/calculadora.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sangrito/Dev/C++/Console/Aula02/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guilherme/Dev/C++/Console/Calculadora/build/CMakeFiles 0
 .PHONY : CMakeFiles/calculadora.dir/rule
 
 # Convenience name for target.
