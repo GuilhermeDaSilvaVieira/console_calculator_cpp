@@ -1,4 +1,4 @@
-#! /bin/fish
+#! /bin/bash
 
 cd ./build
 ./calculadora

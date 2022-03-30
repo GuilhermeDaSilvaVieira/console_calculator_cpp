@@ -1,3 +1,3 @@
-#! /bin/fish
+#! /bin/bash
 
 make -C ./build/
