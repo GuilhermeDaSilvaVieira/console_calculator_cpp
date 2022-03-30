@@ -46,4 +46,4 @@ _deps
 *.cache/
 
 *[Bb][Uu][Ii][Ll][Dd]/
-build/
+*./build/
