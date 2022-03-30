@@ -45,4 +45,4 @@ _deps
 
 *.cache/
 
-[Bb][Uu][Ii][Ll][Dd]/
+*[Bb][Uu][Ii][Ll][Dd]/
